@@ -178,5 +178,5 @@ export declare class PouchDBInstance {
         index: any;
     }): Promise<void>;
 
-    sbSetCryptKey_3(opts: any): void;
+    sbSetCryptKey(opts: any, callback?: (err?: any, res?: any) => void): void;
 }
